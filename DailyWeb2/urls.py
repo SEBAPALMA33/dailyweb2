@@ -18,6 +18,5 @@ from django.urls import path
 from DailyWeb2.views import index
 from django.conf.urls.static import static
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', index),
 ]
