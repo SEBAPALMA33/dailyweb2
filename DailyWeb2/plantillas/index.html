@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'   %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="fondo">
+    <div class="flex-center" style="margin-top: 70px;">
+
+        <div class="resolucion">
+            <div class="desktop">
+
+                <div class="card">
+                    <div class="container">
+                        <img class="auto" src="{% static 'image/logoOficial.png' %}" alt="Avatar" style="width:100%">
+                        <h4 style="text-align: center;"><b>Descarga la aplicacion escaneando el QR </b></h4>
+                        <img class="autoqr" src="{% static 'image/QR.png' %}" alt="Avatar" style="width:100%">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="movil">
+
+                <div class="card">
+                    <div class="container">
+                        <img class="auto" src="{% static 'image/logoOficial.png' %}" alt="Avatar" style="width:100%">
+                        <h4 style="text-align: center;"><b>Descarga la aplicacion clickeando nuestro Logo Oficial.</b>
+                        </h4>
+                        <a href="https://drive.google.com/file/d/1oM0zUOsDYUy5GO7Do7-r7fquhhXizUlp/view?usp=share_link">
+                            <div style="text-align: center;"> <img class="d" src="{% static 'image/D.png' %}"
+                                    alt="Avatar" style="width:25%">
+                            </div>
+                        </a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+
+<footer>
+    <div style="text-align: center; margin-top: 5%;">
+        Todos los derechos reservados.
+    </div>
+</footer>
+
+</html>
