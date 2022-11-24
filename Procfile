@@ -1,1 +1,1 @@
-web gunicorn DailyWeb2.wsgi:application --log-file-
+web gunicorn DailyWeb2.wsgi:application --log-file -
